@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FinTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <div class="headerlogo">FINTECH</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li><a href="AboutUS.html">ABOUT</a> </li>
+                    <li><a href="Services.html">FINTECH</a> </li>
+                    <li><a href="ContactUs.html">CONTACT US</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>To The Moon with FinTech</h1>
+            <p>We are all too familiar with the phrase "To The Moon" in the stock and fintech industry and so this is how FINTECH was born.<br> An interactive AI assistant powered with the help of cloud technology, this will push your portfolio only in the upwards direction.</p>
+            <a href="AboutUS.html" class="header_btn">Visit Us to know More</a>
+        </div>
+
+    </section>
+
+    <section class="Services">
+        <h1>Services We Offer</h1>
+        <p>If you can't reach to the moon by yourself that is where FINTECH comes with its power packed advantages.
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Analytics and Optimization</h3>
+                <p>Gain powerful insights to reduce cost-to-serve and optimise generation revenue.</p>
+            </div>
+            <div class="course-col">
+                <h3>Financially Trained Assistant </h3>
+                <p>Conversational AI that understands financial context and provides real-time banking assistance across all channels.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Out Of The Box Thoughtful AI</h3>
+                <p>This assistant is designed to help deliver a low-code platform that leverages conversational design and an intuitive UI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="expertise">
+        <h1>Expertise we Offer</h1>
+<div class="row">
+    <div class="column-col">
+        <img src="images/Stocks.png" alt="stocks">
+        <div class="layer">
+            <h3>Stocks</h3>
+        </div>  
+    
+    </div>
+    <div class="column-col">
+        <img src="images/bitcoin.png" alt="bitcoin">
+        <div class="layer">
+            <h3>CryptoCurrency</h3>
+        </div>  
+    
+    </div>
+    <div class="column-col">
+        <img src="images/money.jpg" alt="money">
+        <div class="layer">
+            <h3>Liquidity In Hand</h3>
+        </div>  
+    </div>
+</div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="CallToAction">
+        <h1>Come Join Us on our Journey <br>To The Moon :))</h1>
+        <a href="ContactUs.html" class="header_btn">CONTACT US</a>
+
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>We are a new age service oriented venture who will automate any common man's needs with the help of our very own small astronaut buddy FINTECH! <br>Dive deeper into the science of fintech services our bot has to offer and we are sure he will not dissapoint you.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <!-- Toggle Menu  -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FinTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <div class="headerlogo">FINTECH</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li><a href="AboutUS.html">ABOUT</a> </li>
+                    <li><a href="Services.html">FINTECH</a> </li>
+                    <li><a href="ContactUs.html">CONTACT US</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Hi!</h1>
+    </section>
+    <section class="botarena">
+        <div>
+            As our bot has just been brought into this world his knowledge base is very scarce for now. Over the time we will enhance his financial vocabulary and finesse him in interaction. For now you throw questions like what is bitcoin or who created it etc.
+        </div>
+        <iframe
+            src="https://webchat.botframework.com/embed/qnaFINTECH-bot?s=CVX1vOHd3pA.GnNMoCcWvr9qWoQTI2CVxp98104ub9aUfAG_Uc7P7f4"
+            style="height: 502px; max-height: 502px;"></iframe>
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>We are a new age service oriented venture who will automate common man's needs with the help of our very own
+            small astronaut buddy FinTech! <br>Dive deeper into the science of fintech services our bot has to offer and
+            we are sure he will not dissapoint you.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <!-- Toggle Menu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
