@@ -1,4 +1,4 @@
-# FinTech
+#FutureReadyTalentFinTechProject
 
 # FinTech
 Future Ready Talent Project
@@ -35,4 +35,4 @@ Project Details:-
 
  Project URL: https://ritujafintech.z13.web.core.windows.net/
  
-# -FutureReadyTalentFinTechProject
+
