@@ -31,7 +31,7 @@ Project Details:-
 		 Style.css is used for over all designing of the FinTech Site
  
  
- Github link: https://github.com/ritujawaghmore/FinTech
+ Github link: https://github.com/ritujawaghmore/-FutureReadyTalentFinTechProject
 
  Project URL: https://ritujafintech.z13.web.core.windows.net/
  
